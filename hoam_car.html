@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هوام كار - للإيجار وبيع السيارات</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d32f2f;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 1em 0;
+        }
+        h1, h2, h3 {
+            color: #d32f2f;
+        }
+        .car-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .car {
+            background-color: #fff;
+            margin: 1em 0;
+            padding: 1em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 48%;
+        }
+        .car img {
+            max-width: 100%;
+        }
+        .contact-form {
+            background-color: #fff;
+            padding: 1em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>هوام كار</h1>
+    <p>للإيجار وبيع السيارات</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>نبذة عن الشركة</h2>
+        <p>مرحباً بكم في هوام كار، نقدم أفضل عروض السيارات للإيجار والبيع. نضمن لك أفضل الأسعار وأعلى جودة في الخدمة.</p>
+    </section>
+
+    <section>
+        <h2>أنواع السيارات المتوفرة</h2>
+        <div class="car-list">
+            <div class="car">
+                <h3>سيارة سيدان</h3>
+                <img src="https://via.placeholder.com/400" alt="سيارة سيدان">
+                <p>سيارة سيدان مريحة وموفرة للوقود.</p>
+            </div>
+            <div class="car">
+                <h3>سيارة SUV</h3>
+                <img src="https://via.placeholder.com/400" alt="سيارة SUV">
+                <p>سيارة SUV عائلية بمساحة واسعة وأداء عالي.</p>
+            </div>
+            <!-- المزيد من السيارات -->
+        </div>
+    </section>
+
+    <section>
+        <h2>شروط الإيجار والبيع</h2>
+        <p>نحن نقدم شروطًا مرنة ومناسبة للإيجار والبيع لضمان راحتك.</p>
+    </section>
+
+    <section>
+        <h2>العروض الخاصة</h2>
+        <p>استفد من العروض الخاصة الحالية على مجموعة مختارة من السيارات.</p>
+    </section>
+
+    <section>
+        <h2>تواصل معنا</h2>
+        <div class="contact-form">
+            <h3>نموذج الاتصال</h3>
+            <form action="#">
+                <label for="name">الاسم:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">البريد الإلكتروني:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">الرسالة:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <input type="submit" value="إرسال">
+            </form>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 هوام كار. جميع الحقوق محفوظة.</p>
+</footer>
+
+</body>
+</html>
